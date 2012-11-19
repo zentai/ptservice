@@ -1,0 +1,1047 @@
+2012-11-13 13:30:58,121 - cherrypy.error.45667376 - ERROR - [13/Nov/2012:13:30:58] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 39, in register
+    return to_response(member)
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 13:32:36,901 - ptservice - INFO - 1
+2012-11-13 13:32:36,904 - ptservice - ERROR - [reject]
+2012-11-13 13:33:49,966 - ptservice - INFO - 1
+2012-11-13 13:33:49,967 - ptservice - ERROR - [reject]
+2012-11-13 13:34:01,226 - ptservice - INFO - 1
+2012-11-13 13:34:01,233 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 13:34:33,677 - ptservice - INFO - 0
+2012-11-13 13:34:33,680 - ptservice - INFO - MemberRegister@{'email': u'zent@gmail.com', '_id': ObjectId('50a24c69dd1f33245489353e'), 'tel': u'075545235', 'name': u'zen', 'address': u'xdf'}
+2012-11-13 13:34:33,687 - cherrypy.error.43766832 - ERROR - [13/Nov/2012:13:34:33] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 39, in register
+    return to_response(member)
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 13:35:07,540 - ptservice - INFO - 1
+2012-11-13 13:35:07,542 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 13:35:10,992 - ptservice - INFO - 0
+2012-11-13 13:35:10,994 - ptservice - INFO - MemberRegister@{'email': u'zentx@gmail.com', '_id': ObjectId('50a24c8edd1f33222c695c0f'), 'tel': u'075545235', 'name': u'zen', 'address': u'xdf'}
+2012-11-13 13:35:11,005 - cherrypy.error.45601840 - ERROR - [13/Nov/2012:13:35:11] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 39, in register
+    return to_response(result)
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: 'ObjectId' object is not iterable
+
+2012-11-13 13:36:10,312 - ptservice - INFO - 1
+2012-11-13 13:36:10,315 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 13:36:17,772 - ptservice - INFO - 0
+2012-11-13 13:36:17,773 - ptservice - INFO - MemberRegister@{'email': u'zenxtx@gmail.com', '_id': ObjectId('50a24cd1dd1f331e4c2a17d8'), 'tel': u'075545235', 'name': u'zen', 'address': u'xdf'}
+2012-11-13 13:36:17,786 - cherrypy.error.46126128 - ERROR - [13/Nov/2012:13:36:17] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 39, in register
+    return to_response(self.table.find(result))
+  File "C:\Python27\lib\site-packages\pymongo\collection.py", line 618, in find
+    return Cursor(self, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 61, in __init__
+    raise TypeError("spec must be an instance of dict")
+TypeError: spec must be an instance of dict
+
+2012-11-13 13:37:59,280 - ptservice - INFO - 0
+2012-11-13 13:37:59,282 - ptservice - INFO - MemberRegister@{'email': u'zenxetx@gmail.com', '_id': ObjectId('50a24d37dd1f3314c0b46dc0'), 'tel': u'075545235', 'name': u'zen', 'address': u'xdf'}
+2012-11-13 13:38:11,944 - ptservice - INFO - 1
+2012-11-13 13:38:11,946 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 13:38:56,640 - ptservice - INFO - 1
+2012-11-13 13:38:56,641 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 13:38:56,648 - cherrypy.error.45470768 - ERROR - [13/Nov/2012:13:38:56] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 38, in register
+    'msg': 'MemberManager.register fail, email duplicate',
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 13:39:24,851 - ptservice - INFO - 1
+2012-11-13 13:39:24,854 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 13:39:24,859 - cherrypy.error.45143088 - ERROR - [13/Nov/2012:13:39:24] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 38, in register
+    'msg': 'MemberManager.register fail, email duplicate'
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 22:52:51,890 - ptservice - INFO - 1
+2012-11-13 22:52:51,892 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 22:52:51,898 - cherrypy.error.44172432 - ERROR - [13/Nov/2012:22:52:51] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 38, in register
+    'msg': 'MemberManager.register fail, email duplicate'
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 22:53:41,223 - ptservice - INFO - 1
+2012-11-13 22:53:41,224 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 22:53:41,227 - cherrypy.error.44172432 - ERROR - [13/Nov/2012:22:53:41] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 38, in register
+    'msg': 'MemberManager.register fail, email duplicate'
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 22:53:46,664 - ptservice - INFO - 1
+2012-11-13 22:53:46,667 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 22:53:50,364 - ptservice - INFO - 1
+2012-11-13 22:53:50,368 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 22:58:19,441 - ptservice - INFO - 1
+2012-11-13 22:58:19,444 - ptservice - ERROR - MemberManager.register fail, email duplicate
+2012-11-13 22:58:44,418 - ptservice - INFO - 1
+2012-11-13 22:58:44,421 - ptservice - ERROR - MemberManager.register fail, email duplicate: zenxetx@gmail.com
+2012-11-13 23:00:43,635 - ptservice - INFO - 0
+2012-11-13 23:00:43,642 - ptservice - INFO - MemberRegister@{'email': u'ddzenxetx@gmail.com', '_id': ObjectId('50a2d11bdd1f332d54ba25bf'), 'tel': u'075545235', 'name': u'zen', 'address': u'xdf'}
+2012-11-13 23:00:43,657 - cherrypy.error.45876368 - ERROR - [13/Nov/2012:23:00:43] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 47, in register
+    return to_response(200, _result_to_dict(result))
+  File "C:\ptservice\ptservice.py", line 14, in to_response
+    result.update(ext)
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+
+2012-11-13 23:01:35,196 - ptservice - INFO - 1
+2012-11-13 23:01:35,197 - ptservice - ERROR - MemberManager.register fail, email duplicate: ddzenxetx@gmail.com
+2012-11-13 23:01:41,096 - ptservice - INFO - 0
+2012-11-13 23:01:41,101 - ptservice - INFO - MemberRegister@{'email': u'ddzenxetxd@gmail.com', '_id': ObjectId('50a2d155dd1f33292c266e76'), 'tel': u'075545235', 'name': u'zen', 'address': u'xdf'}
+2012-11-13 23:55:48,796 - ptservice - ERROR - MemberManager.register fail, email duplicate: ddzenxetxd@gmail.com
+2012-11-13 23:55:53,707 - cherrypy.error.44631184 - ERROR - [13/Nov/2012:23:55:53] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in filter
+    return to_response(200, _result_to_dict(self.table.find())).sort({name: 1})
+AttributeError: 'str' object has no attribute 'sort'
+
+2012-11-13 23:56:37,640 - cherrypy.error.43648144 - ERROR - [13/Nov/2012:23:56:37] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in filter
+    return to_response(200, _result_to_dict(self.table.find()).sort({name: 1}))
+AttributeError: 'dict' object has no attribute 'sort'
+
+2012-11-13 23:56:57,285 - cherrypy.error.44696720 - ERROR - [13/Nov/2012:23:56:57] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in filter
+    return to_response(200, _result_to_dict(self.table.find().sort({name: 1})))
+NameError: global name 'name' is not defined
+
+2012-11-13 23:57:16,201 - cherrypy.error.46859408 - ERROR - [13/Nov/2012:23:57:16] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in filter
+    return to_response(200, _result_to_dict(self.table.find().sort({"name": 1})))
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 463, in sort
+    keys = helpers._index_list(key_or_list, direction)
+  File "C:\Python27\lib\site-packages\pymongo\helpers.py", line 46, in _index_list
+    raise TypeError("if no direction is specified, "
+TypeError: if no direction is specified, key_or_list must be an instance of list
+
+2012-11-13 23:58:00,084 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02A62F20>
+2012-11-13 23:59:04,259 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02C02F20>
+2012-11-13 23:59:39,167 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02B52F20>
+2012-11-14 00:00:41,684 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02BB2F20>
+2012-11-14 00:00:41,704 - ptservice - INFO - {u'nYields': 0, u'nscannedAllPlans': 8, u'allPlans': [{u'cursor': u'BasicCursor', u'indexBounds': {}, u'nscannedObjects': 8, u'nscanned': 8, u'n': 0}], u'millis': 0, u'nChunkSkips': 0, u'server': u'lunar-ctrlworks:27017', u'n': 0, u'cursor': u'BasicCursor', u'scanAndOrder': False, u'indexBounds': {}, u'nscannedObjectsAllPlans': 8, u'isMultiKey': False, u'indexOnly': False, u'nscanned': 8, u'nscannedObjects': 8}
+2012-11-14 00:02:03,190 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02B62F20>
+2012-11-14 00:02:19,413 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02A32F20>
+2012-11-14 00:05:54,717 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02B02F20>
+2012-11-14 00:05:54,723 - cherrypy.error.44827792 - ERROR - [14/Nov/2012:00:05:54] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 65, in filter
+    {"user_name": re.compile("*.keyword.*" % keyword, re.IGNORECASE)},
+TypeError: not all arguments converted during string formatting
+
+2012-11-14 00:06:31,026 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02B32F20>
+2012-11-14 00:06:31,035 - cherrypy.error.45024400 - ERROR - [14/Nov/2012:00:06:31] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 65, in filter
+    {"user_name": re.compile("*.%s.*" % keyword, re.IGNORECASE)},
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:07:11,368 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02A22F20>
+2012-11-14 00:07:11,377 - cherrypy.error.43910288 - ERROR - [14/Nov/2012:00:07:11] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 65, in filter
+    {"user_name": re.compile("*.%s.*" % keyword, re.IGNORECASE)},
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:07:34,596 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02B42F20>
+2012-11-14 00:07:34,602 - cherrypy.error.45089936 - ERROR - [14/Nov/2012:00:07:34] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 65, in filter
+    {"user_name": re.compile("*.%s.*" % keyword, re.IGNORECASE)},
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:08:57,657 - cherrypy.error.44303504 - ERROR - [14/Nov/2012:00:08:57] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 63, in filter
+    {"user_name": re.compile("*.%s.*" % keyword, re.IGNORECASE)},
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:09:38,684 - cherrypy.error.44827792 - ERROR - [14/Nov/2012:00:09:38] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 63, in filter
+    {"user_name": re.compile("*." + keyword + ".*", re.IGNORECASE)},
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:11:43,733 - cherrypy.error.44303504 - ERROR - [14/Nov/2012:00:11:43] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 62, in filter
+    regx = re.compile("*.%s.*" % keyword, re.IGNORECASE)
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:12:15,618 - cherrypy.error.45089936 - ERROR - [14/Nov/2012:00:12:15] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 62, in filter
+    regx = re.compile("*.xx.*", re.IGNORECASE)
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:12:56,256 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02D4E6B0>
+2012-11-14 00:13:15,204 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02D9E6B0>
+2012-11-14 00:14:17,010 - cherrypy.error.46597264 - ERROR - [14/Nov/2012:00:14:17] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 62, in filter
+    regx = re.compile("*%s*" % keyword, re.IGNORECASE)
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:15:50,881 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02AA7E20>
+2012-11-14 00:16:06,000 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02A77E20>
+2012-11-14 15:07:55,898 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02D58E20>
+2012-11-14 15:08:59,144 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02BC7F20>
+2012-11-14 15:09:00,631 - ptservice - INFO - <_sre.SRE_Pattern object at 0x02BC7F20>
+2012-11-18 03:49:57,823 - ptservice - INFO - MemberRegister@{'tel': u'075545235', 'name': u'zhijian', 'address': u'xdf', 'active': True, '_id': ObjectId('50a85ae5dd1f3310642776d7'), 'email': u'walao81@gmail.com'}
+2012-11-18 03:55:27,714 - cherrypy.error.45589744 - ERROR - [18/Nov/2012:03:55:27] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 57, in disable
+    return to_response(200, _result_to_dict(self.table.find(users)))
+  File "C:\Python27\lib\site-packages\pymongo\collection.py", line 618, in find
+    return Cursor(self, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 61, in __init__
+    raise TypeError("spec must be an instance of dict")
+TypeError: spec must be an instance of dict
+
+2012-11-18 03:56:02,584 - cherrypy.error.46245104 - ERROR - [18/Nov/2012:03:56:02] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 57, in disable
+    return to_response(200, _result_to_dict(users))
+NameError: global name 'users' is not defined
+
+2012-11-18 03:56:04,733 - cherrypy.error.46245104 - ERROR - [18/Nov/2012:03:56:04] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 57, in disable
+    return to_response(200, _result_to_dict(users))
+NameError: global name 'users' is not defined
+
+2012-11-18 03:58:12,720 - cherrypy.error.46179568 - ERROR - [18/Nov/2012:03:58:12] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 56, in disable
+    users = self.table.find({"_id": ObjectId(id)})
+NameError: global name 'ObjectId' is not defined
+
+2012-11-18 04:22:43,532 - cherrypy.error.45458672 - ERROR - [18/Nov/2012:04:22:43] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in disable
+    return to_response(200, users)
+NameError: global name 'users' is not defined
+
+2012-11-18 04:23:19,312 - cherrypy.error.45196528 - ERROR - [18/Nov/2012:04:23:19] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in disable
+    user.active = False
+AttributeError: 'dict' object has no attribute 'active'
+
+2012-11-18 04:36:11,759 - ptservice - INFO - MemberRegister@{'tel': u'075545235', 'name': u'zhijian', 'address': u'xdf', 'active': True, '_id': ObjectId('50a865bbdd1f33037ca0084a'), 'email': u'walao81@gmail.com'}
+2012-11-18 04:36:27,078 - ptservice - INFO - MemberRegister@{'tel': u'075545235', 'name': u'tjc', 'address': u'xdf', 'active': True, '_id': ObjectId('50a865cbdd1f33037ca0084b'), 'email': u'zhijian@gmail.com'}
+2012-11-18 05:04:07,530 - cherrypy.error.45196528 - ERROR - [18/Nov/2012:05:04:07] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 60, in disable
+    self.table.update(user)
+TypeError: update() takes at least 3 arguments (2 given)
+
+2012-11-18 05:18:31,217 - cherrypy.error.45786352 - ERROR - [18/Nov/2012:05:18:31] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 66, in disable
+    return to_response(200, user)
+NameError: global name 'user' is not defined
+
+2012-11-18 05:19:42,888 - cherrypy.error.45786352 - ERROR - [18/Nov/2012:05:19:42] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 66, in disable
+    return to_response(200, {})
+NameError: global name 'user' is not defined
+
+2012-11-18 05:20:28,842 - cherrypy.error.45982960 - ERROR - [18/Nov/2012:05:20:28] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 66, in disable
+    return to_response(200, user)
+  File "C:\ptservice\ptservice.py", line 17, in to_response
+    result.update(ext)
+TypeError: 'NoneType' object is not iterable
+
+2012-11-18 19:25:10,081 - ptservice - INFO - Freelancer init: Connection('localhost', 27017)
+2012-11-18 19:25:50,555 - ptservice - INFO - Freelancer init: Connection('localhost', 27017)
+2012-11-18 19:26:29,801 - ptservice - INFO - Freelancer init: Connection('localhost', 27017)
+2012-11-18 19:26:29,812 - cherrypy.error.48997616 - ERROR - [18/Nov/2012:19:26:29] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 82, in fetch_member
+    return to_response(200, Member(id).member)
+  File "C:\ptservice\ptservice.py", line 93, in __init__
+    self.member = self.table.find_one({'_id': ObjectId(id)})
+  File "C:\Python27\lib\site-packages\bson\objectid.py", line 84, in __init__
+    self.__validate(oid)
+  File "C:\Python27\lib\site-packages\bson\objectid.py", line 173, in __validate
+    raise InvalidId("%s is not a valid ObjectId" % oid)
+InvalidId: 50a865cbdd1f33037ca0084 is not a valid ObjectId
+
+2012-11-18 19:27:46,076 - ptservice - INFO - Freelancer init: Connection('localhost', 27017)
+2012-11-18 19:27:46,082 - cherrypy.error.46769392 - ERROR - [18/Nov/2012:19:27:46] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 82, in fetch_member
+    return to_response(200, Member(id).member)
+  File "C:\ptservice\ptservice.py", line 95, in __init__
+    except InvalidId:
+NameError: global name 'InvalidId' is not defined
+
+2012-11-18 19:28:51,469 - ptservice - INFO - Freelancer init: Connection('localhost', 27017)
+2012-11-18 19:28:51,470 - ptservice - ERROR - Customer ID not found: 50a865cbdd1f33037ca0084
+2012-11-18 19:28:51,474 - cherrypy.error.47359216 - ERROR - [18/Nov/2012:19:28:51] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 83, in fetch_member
+    return to_response(200, Member(id).member)
+AttributeError: 'Member' object has no attribute 'member'
+
+2012-11-18 19:30:10,788 - ptservice - INFO - Freelancer init: Connection('localhost', 27017)
+2012-11-18 19:30:10,789 - ptservice - ERROR - Customer ID not found: 50a865cbdd1f33037ca0084
+2012-11-18 19:30:10,795 - cherrypy.error.45589744 - ERROR - [18/Nov/2012:19:30:10] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 83, in fetch_member
+    return to_response(200, Member(id).member)
+  File "C:\ptservice\ptservice.py", line 98, in __init__
+    raise e
+InvalidId: 50a865cbdd1f33037ca0084 is not a valid ObjectId
+
+2012-11-18 19:31:14,779 - ptservice - INFO - Freelancer init: Connection('localhost', 27017)
+2012-11-18 19:31:14,779 - ptservice - ERROR - Customer ID not found: 50a865cbdd1f33037ca0084
+2012-11-18 19:31:14,779 - ptservice - ERROR - fetch member fail, id: 50a865cbdd1f33037ca0084
+2012-11-18 20:07:25,683 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:07:25,688 - cherrypy.error.44737776 - ERROR - [18/Nov/2012:20:07:25] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 99, in topup
+    result = member.topup(point, free, paidtype)
+AttributeError: 'NoneType' object has no attribute 'topup'
+
+2012-11-18 20:08:36,539 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:08:36,540 - cherrypy.error.44737776 - ERROR - [18/Nov/2012:20:08:36] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 99, in topup
+    result = member.topup(point, free, paidtype)
+AttributeError: 'NoneType' object has no attribute 'topup'
+
+2012-11-18 20:08:42,769 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:08:42,776 - cherrypy.error.45982960 - ERROR - [18/Nov/2012:20:08:42] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 99, in topup
+    result = member.topup(point, free, paidtype)
+AttributeError: 'NoneType' object has no attribute 'topup'
+
+2012-11-18 20:09:33,230 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:09:33,236 - cherrypy.error.46572784 - ERROR - [18/Nov/2012:20:09:33] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 100, in topup
+    result = member.topup(point, free, paidtype)
+  File "C:\ptservice\ptservice.py", line 114, in topup
+    assert isinstance(n, int), "point should be int"
+NameError: global name 'n' is not defined
+
+2012-11-18 20:10:09,342 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:10:09,348 - cherrypy.error.45393136 - ERROR - [18/Nov/2012:20:10:09] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 100, in topup
+    result = member.topup(point, free, paidtype)
+  File "C:\ptservice\ptservice.py", line 114, in topup
+    assert isinstance(point, int), "point should be int"
+AssertionError: point should be int
+
+2012-11-18 20:10:52,263 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:10:52,269 - cherrypy.error.46245104 - ERROR - [18/Nov/2012:20:10:52] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 100, in topup
+    result = member.topup(int(point), int(free), paidtype)
+TypeError: int() argument must be a string or a number, not 'list'
+
+2012-11-18 20:11:38,183 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:11:38,184 - ptservice - ERROR - [u'1', u'1']
+2012-11-18 20:11:38,184 - ptservice - ERROR - 1
+2012-11-18 20:11:38,190 - cherrypy.error.45589744 - ERROR - [18/Nov/2012:20:11:38] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in topup
+    result = member.topup(int(point), int(free), paidtype)
+TypeError: int() argument must be a string or a number, not 'list'
+
+2012-11-18 20:12:01,605 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:12:01,607 - ptservice - ERROR - 1
+2012-11-18 20:12:01,607 - ptservice - ERROR - 1
+2012-11-18 20:12:01,609 - ptservice - INFO - topup@{'_id': ObjectId('50a94111dd1f3308449cb747'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:12:01,612 - cherrypy.error.45589744 - ERROR - [18/Nov/2012:20:12:01] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 103, in topup
+    return to_response(200, result)
+  File "C:\ptservice\ptservice.py", line 18, in to_response
+    result.update(ext)
+TypeError: 'ObjectId' object is not iterable
+
+2012-11-18 20:12:45,466 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:12:45,467 - ptservice - ERROR - 1
+2012-11-18 20:12:45,467 - ptservice - ERROR - 1
+2012-11-18 20:12:45,469 - ptservice - INFO - topup@{'_id': ObjectId('50a9413ddd1f33081037edb6'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:12:45,473 - cherrypy.error.46834928 - ERROR - [18/Nov/2012:20:12:45] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 103, in topup
+    return to_response(200, {result})
+  File "C:\ptservice\ptservice.py", line 18, in to_response
+    result.update(ext)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+
+2012-11-18 20:14:22,466 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:22,467 - ptservice - ERROR - 1
+2012-11-18 20:14:22,467 - ptservice - ERROR - 1
+2012-11-18 20:14:22,469 - ptservice - INFO - topup@{'_id': ObjectId('50a9419edd1f3305a03e36f2'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:31,540 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:31,542 - ptservice - ERROR - 1
+2012-11-18 20:14:31,542 - ptservice - ERROR - 1
+2012-11-18 20:14:31,542 - ptservice - INFO - topup@{'_id': ObjectId('50a941a7dd1f3305a03e36f3'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:31,882 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:31,882 - ptservice - ERROR - 1
+2012-11-18 20:14:31,884 - ptservice - ERROR - 1
+2012-11-18 20:14:31,884 - ptservice - INFO - topup@{'_id': ObjectId('50a941a7dd1f3305a03e36f4'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:32,184 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:32,184 - ptservice - ERROR - 1
+2012-11-18 20:14:32,186 - ptservice - ERROR - 1
+2012-11-18 20:14:32,187 - ptservice - INFO - topup@{'_id': ObjectId('50a941a8dd1f3305a03e36f5'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:32,526 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:32,529 - ptservice - ERROR - 1
+2012-11-18 20:14:32,529 - ptservice - ERROR - 1
+2012-11-18 20:14:32,532 - ptservice - INFO - topup@{'_id': ObjectId('50a941a8dd1f3305a03e36f6'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:32,719 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:32,720 - ptservice - ERROR - 1
+2012-11-18 20:14:32,720 - ptservice - ERROR - 1
+2012-11-18 20:14:32,721 - ptservice - INFO - topup@{'_id': ObjectId('50a941a8dd1f3305a03e36f7'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:32,967 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:32,967 - ptservice - ERROR - 1
+2012-11-18 20:14:32,969 - ptservice - ERROR - 1
+2012-11-18 20:14:32,970 - ptservice - INFO - topup@{'_id': ObjectId('50a941a8dd1f3305a03e36f8'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:33,128 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:33,128 - ptservice - ERROR - 1
+2012-11-18 20:14:33,130 - ptservice - ERROR - 1
+2012-11-18 20:14:33,131 - ptservice - INFO - topup@{'_id': ObjectId('50a941a9dd1f3305a03e36f9'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:33,276 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:33,276 - ptservice - ERROR - 1
+2012-11-18 20:14:33,276 - ptservice - ERROR - 1
+2012-11-18 20:14:33,278 - ptservice - INFO - topup@{'_id': ObjectId('50a941a9dd1f3305a03e36fa'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:33,573 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:33,575 - ptservice - ERROR - 1
+2012-11-18 20:14:33,575 - ptservice - ERROR - 1
+2012-11-18 20:14:33,576 - ptservice - INFO - topup@{'_id': ObjectId('50a941a9dd1f3305a03e36fb'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:33,740 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:33,742 - ptservice - ERROR - 1
+2012-11-18 20:14:33,743 - ptservice - ERROR - 1
+2012-11-18 20:14:33,743 - ptservice - INFO - topup@{'_id': ObjectId('50a941a9dd1f3305a03e36fc'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:33,928 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:33,930 - ptservice - ERROR - 1
+2012-11-18 20:14:33,930 - ptservice - ERROR - 1
+2012-11-18 20:14:33,931 - ptservice - INFO - topup@{'_id': ObjectId('50a941a9dd1f3305a03e36fd'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:34,049 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:34,049 - ptservice - ERROR - 1
+2012-11-18 20:14:34,049 - ptservice - ERROR - 1
+2012-11-18 20:14:34,051 - ptservice - INFO - topup@{'_id': ObjectId('50a941aadd1f3305a03e36fe'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:34,240 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:34,242 - ptservice - ERROR - 1
+2012-11-18 20:14:34,243 - ptservice - ERROR - 1
+2012-11-18 20:14:34,243 - ptservice - INFO - topup@{'_id': ObjectId('50a941aadd1f3305a03e36ff'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:34,434 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:34,434 - ptservice - ERROR - 1
+2012-11-18 20:14:34,436 - ptservice - ERROR - 1
+2012-11-18 20:14:34,437 - ptservice - INFO - topup@{'_id': ObjectId('50a941aadd1f3305a03e3700'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:34,671 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:34,673 - ptservice - ERROR - 1
+2012-11-18 20:14:34,673 - ptservice - ERROR - 1
+2012-11-18 20:14:34,674 - ptservice - INFO - topup@{'_id': ObjectId('50a941aadd1f3305a03e3701'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:34,786 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:34,786 - ptservice - ERROR - 1
+2012-11-18 20:14:34,786 - ptservice - ERROR - 1
+2012-11-18 20:14:34,789 - ptservice - INFO - topup@{'_id': ObjectId('50a941aadd1f3305a03e3702'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:34,980 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:34,982 - ptservice - ERROR - 1
+2012-11-18 20:14:34,983 - ptservice - ERROR - 1
+2012-11-18 20:14:34,984 - ptservice - INFO - topup@{'_id': ObjectId('50a941aadd1f3305a03e3703'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:35,173 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:35,173 - ptservice - ERROR - 1
+2012-11-18 20:14:35,174 - ptservice - ERROR - 1
+2012-11-18 20:14:35,174 - ptservice - INFO - topup@{'_id': ObjectId('50a941abdd1f3305a03e3704'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:35,357 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:35,358 - ptservice - ERROR - 1
+2012-11-18 20:14:35,358 - ptservice - ERROR - 1
+2012-11-18 20:14:35,359 - ptservice - INFO - topup@{'_id': ObjectId('50a941abdd1f3305a03e3705'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:35,572 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:35,572 - ptservice - ERROR - 1
+2012-11-18 20:14:35,573 - ptservice - ERROR - 1
+2012-11-18 20:14:35,575 - ptservice - INFO - topup@{'_id': ObjectId('50a941abdd1f3305a03e3706'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:35,746 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:35,746 - ptservice - ERROR - 1
+2012-11-18 20:14:35,747 - ptservice - ERROR - 1
+2012-11-18 20:14:35,750 - ptservice - INFO - topup@{'_id': ObjectId('50a941abdd1f3305a03e3707'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:14:35,918 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:14:35,920 - ptservice - ERROR - 1
+2012-11-18 20:14:35,921 - ptservice - ERROR - 1
+2012-11-18 20:14:35,921 - ptservice - INFO - topup@{'_id': ObjectId('50a941abdd1f3305a03e3708'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:15:03,186 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:15:03,187 - ptservice - INFO - topup@{'_id': ObjectId('50a941c7dd1f3311f08b56c1'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:15:03,854 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:15:03,855 - ptservice - INFO - topup@{'_id': ObjectId('50a941c7dd1f3311f08b56c2'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:15:04,138 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:15:04,138 - ptservice - INFO - topup@{'_id': ObjectId('50a941c8dd1f3311f08b56c3'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:15:04,348 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:15:04,349 - ptservice - INFO - topup@{'_id': ObjectId('50a941c8dd1f3311f08b56c4'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:15:04,555 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:15:04,555 - ptservice - INFO - topup@{'_id': ObjectId('50a941c8dd1f3311f08b56c5'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 20:15:04,677 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 20:15:04,680 - ptservice - INFO - topup@{'_id': ObjectId('50a941c8dd1f3311f08b56c6'), 'paidtype': u'card', 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}}
+2012-11-18 23:06:41,618 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:06:41,621 - ptservice - INFO - topup@{'paidtype': u'card', 'create_date': datetime.datetime(2012, 11, 18, 23, 6, 41, 620000), 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, '_id': ObjectId('50a96a01dd1f33106c9ec1e0')}
+2012-11-18 23:07:22,854 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:07:22,855 - ptservice - INFO - topup@{'paidtype': u'card', 'create_date': datetime.datetime(2012, 11, 18, 23, 7, 22, 854000), 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, '_id': ObjectId('50a96a2add1f33106c9ec1e1')}
+2012-11-18 23:07:23,233 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:07:23,236 - ptservice - INFO - topup@{'paidtype': u'card', 'create_date': datetime.datetime(2012, 11, 18, 23, 7, 23, 235000), 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, '_id': ObjectId('50a96a2bdd1f33106c9ec1e2')}
+2012-11-18 23:07:23,427 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:07:23,431 - ptservice - INFO - topup@{'paidtype': u'card', 'create_date': datetime.datetime(2012, 11, 18, 23, 7, 23, 431000), 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, '_id': ObjectId('50a96a2bdd1f33106c9ec1e3')}
+2012-11-18 23:07:23,565 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:07:23,565 - ptservice - INFO - topup@{'paidtype': u'card', 'create_date': datetime.datetime(2012, 11, 18, 23, 7, 23, 566000), 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, '_id': ObjectId('50a96a2bdd1f33106c9ec1e4')}
+2012-11-18 23:07:23,714 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:07:23,714 - ptservice - INFO - topup@{'paidtype': u'card', 'create_date': datetime.datetime(2012, 11, 18, 23, 7, 23, 715000), 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, '_id': ObjectId('50a96a2bdd1f33106c9ec1e5')}
+2012-11-18 23:07:23,892 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:07:23,894 - ptservice - INFO - topup@{'paidtype': u'card', 'create_date': datetime.datetime(2012, 11, 18, 23, 7, 23, 893000), 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, '_id': ObjectId('50a96a2bdd1f33106c9ec1e6')}
+2012-11-18 23:07:24,071 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:07:24,072 - ptservice - INFO - topup@{'paidtype': u'card', 'create_date': datetime.datetime(2012, 11, 18, 23, 7, 24, 71000), 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, '_id': ObjectId('50a96a2cdd1f33106c9ec1e7')}
+2012-11-18 23:07:24,243 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:07:24,243 - ptservice - INFO - topup@{'paidtype': u'card', 'create_date': datetime.datetime(2012, 11, 18, 23, 7, 24, 243000), 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, '_id': ObjectId('50a96a2cdd1f33106c9ec1e8')}
+2012-11-18 23:07:24,413 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:07:24,414 - ptservice - INFO - topup@{'paidtype': u'card', 'create_date': datetime.datetime(2012, 11, 18, 23, 7, 24, 413000), 'point': 1, 'free': 1, 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, '_id': ObjectId('50a96a2cdd1f33106c9ec1e9')}
+2012-11-18 23:36:31,013 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:36:31,015 - ptservice - INFO - topup@{'paidtype': u'card', '_id': ObjectId('50a970ffdd1f33073c864d85'), 'create_date': datetime.datetime(2012, 11, 18, 23, 36, 31, 15000), 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1}
+2012-11-18 23:40:53,536 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:40:53,538 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97205dd1f33065c11ee15'), 'create_date': datetime.datetime(2012, 11, 18, 23, 40, 53, 538000), 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-18 23:45:08,223 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:45:08,224 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97304dd1f3318483d666c'), 'create_date': datetime.datetime(2012, 11, 18, 23, 45, 8, 225000), 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-18 23:57:38,676 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:57:38,676 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a975f2dd1f33129c102cf7'), 'create_date': datetime.datetime(2012, 11, 18, 23, 57, 38, 676000), 'member_id': {u'tel': u'075545235', u'name': u'tjc', u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}, 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-18 23:57:52,533 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-18 23:57:52,536 - cherrypy.error.46310640 - ERROR - [18/Nov/2012:23:57:52] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 135, in calc_point
+    records = self.table.find({'_id': ObjectId(self.id), 'active': True, type: 'income'})
+  File "C:\Python27\lib\site-packages\bson\objectid.py", line 84, in __init__
+    self.__validate(oid)
+  File "C:\Python27\lib\site-packages\bson\objectid.py", line 177, in __validate
+    text_type.__name__, type(oid)))
+TypeError: id must be an instance of (str, unicode, ObjectId), not <type 'dict'>
+
+2012-11-19 00:00:36,417 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:00:36,424 - cherrypy.error.44541168 - ERROR - [19/Nov/2012:00:00:36] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 137, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:02:25,030 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:02:25,035 - cherrypy.error.46900464 - ERROR - [19/Nov/2012:00:02:25] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 138, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:03:39,700 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:03:39,706 - cherrypy.error.45851888 - ERROR - [19/Nov/2012:00:03:39] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 137, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:04:04,355 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:04:44,563 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:04:44,569 - cherrypy.error.44541168 - ERROR - [19/Nov/2012:00:04:44] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 137, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:05:03,187 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:05:03,190 - cherrypy.error.48145648 - ERROR - [19/Nov/2012:00:05:03] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 137, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:05:20,005 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:05:20,012 - cherrypy.error.45458672 - ERROR - [19/Nov/2012:00:05:20] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 137, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:05:52,581 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:05:52,588 - cherrypy.error.45851888 - ERROR - [19/Nov/2012:00:05:52] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 138, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:06:40,447 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:06:40,453 - cherrypy.error.46638320 - ERROR - [19/Nov/2012:00:06:40] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 138, in calc_point
+    for record in _result_to_dict(records):
+  File "C:\ptservice\utils.py", line 10, in _result_to_dict
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\utils.py", line 10, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:07:37,335 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:07:56,395 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:07:57,454 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:25,288 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:25,289 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97879dd1f33146c3e0e1c'), 'create_date': datetime.datetime(2012, 11, 19, 0, 8, 25, 289000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:08:27,845 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:27,849 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a9787bdd1f33146c3e0e1d'), 'create_date': datetime.datetime(2012, 11, 19, 0, 8, 27, 850000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:08:28,355 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:28,355 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a9787cdd1f33146c3e0e1e'), 'create_date': datetime.datetime(2012, 11, 19, 0, 8, 28, 355000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:08:28,611 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:28,611 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a9787cdd1f33146c3e0e1f'), 'create_date': datetime.datetime(2012, 11, 19, 0, 8, 28, 611000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:08:28,835 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:28,836 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a9787cdd1f33146c3e0e20'), 'create_date': datetime.datetime(2012, 11, 19, 0, 8, 28, 836000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:08:29,091 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:29,092 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a9787ddd1f33146c3e0e21'), 'create_date': datetime.datetime(2012, 11, 19, 0, 8, 29, 92000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:08:29,328 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:29,329 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a9787ddd1f33146c3e0e22'), 'create_date': datetime.datetime(2012, 11, 19, 0, 8, 29, 330000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:08:29,586 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:29,588 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a9787ddd1f33146c3e0e23'), 'create_date': datetime.datetime(2012, 11, 19, 0, 8, 29, 588000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:08:29,796 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:29,796 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a9787ddd1f33146c3e0e24'), 'create_date': datetime.datetime(2012, 11, 19, 0, 8, 29, 797000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:08:30,032 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:08:30,032 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a9787edd1f33146c3e0e25'), 'create_date': datetime.datetime(2012, 11, 19, 0, 8, 30, 33000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:08:43,595 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:09:34,838 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:10:25,328 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:10:40,364 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:11:35,647 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:11:35,647 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97937dd1f3314709f73f0'), 'create_date': datetime.datetime(2012, 11, 19, 0, 11, 35, 647000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:11:37,098 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:11:37,098 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97939dd1f3314709f73f1'), 'create_date': datetime.datetime(2012, 11, 19, 0, 11, 37, 99000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:11:37,503 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:11:37,503 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97939dd1f3314709f73f2'), 'create_date': datetime.datetime(2012, 11, 19, 0, 11, 37, 504000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:11:37,681 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:11:37,681 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97939dd1f3314709f73f3'), 'create_date': datetime.datetime(2012, 11, 19, 0, 11, 37, 682000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:11:37,976 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:11:37,977 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97939dd1f3314709f73f4'), 'create_date': datetime.datetime(2012, 11, 19, 0, 11, 37, 978000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:11:39,848 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:12:38,046 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:12:54,690 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:12:55,585 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:16:44,928 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:16:44,930 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97a6cdd1f331e0479de37'), 'create_date': datetime.datetime(2012, 11, 19, 0, 16, 44, 930000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:16:44,933 - ptservice - INFO - member@{u'tel': u'075545235', u'name': u'tjc', 'total_point': 12, u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}
+2012-11-19 00:17:03,236 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:17:03,236 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97a7fdd1f331e0479de38'), 'create_date': datetime.datetime(2012, 11, 19, 0, 17, 3, 237000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:17:03,240 - ptservice - INFO - member@{u'tel': u'075545235', u'name': u'tjc', u'total_point': 14, u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}
+2012-11-19 00:19:55,423 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:19:55,427 - cherrypy.error.46179568 - ERROR - [19/Nov/2012:00:19:55] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+AttributeError: 'Member' object has no attribute 'calc_point'
+
+2012-11-19 00:20:51,315 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:20:52,276 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:20:54,967 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:20:54,969 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97b66dd1f3316e0a85db7'), 'create_date': datetime.datetime(2012, 11, 19, 0, 20, 54, 969000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:20:54,973 - ptservice - INFO - member@{u'tel': u'075545235', u'name': u'tjc', u'total_point': 16, u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}
+2012-11-19 00:20:55,846 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:20:55,848 - ptservice - INFO - topup@{'paid_type': u'card', '_id': ObjectId('50a97b67dd1f3316e0a85db8'), 'create_date': datetime.datetime(2012, 11, 19, 0, 20, 55, 847000), 'member_id': u'50a865cbdd1f33037ca0084b', 'active': True, 'desp': 'topup', 'point': 1, 'type': 'income', 'free': 1, 'card_no': None}
+2012-11-19 00:20:55,851 - ptservice - INFO - member@{u'tel': u'075545235', u'name': u'tjc', u'total_point': 18, u'address': u'xdf', u'active': True, u'_id': ObjectId('50a865cbdd1f33037ca0084b'), u'email': u'zhijian@gmail.com'}
+2012-11-19 00:20:57,426 - ptservice - INFO - member init: Connection('localhost', 27017)
+2012-11-19 00:20:58,138 - ptservice - INFO - member init: Connection('localhost', 27017)

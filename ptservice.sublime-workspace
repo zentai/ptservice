@@ -1,0 +1,1284 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"en",
+				"end_date"
+			],
+			[
+				"build",
+				"build_number"
+			],
+			[
+				"GI",
+				"GITHUB"
+			],
+			[
+				"fine",
+				"filename"
+			],
+			[
+				"Branc",
+				"GIT_BRANCH"
+			],
+			[
+				"ci",
+				"commitlog"
+			],
+			[
+				"cha",
+				"changeset"
+			],
+			[
+				"las",
+				"last_axisY"
+			],
+			[
+				"last",
+				"last_axisX"
+			],
+			[
+				"con",
+				"connectState"
+			],
+			[
+				"new",
+				"new_prefix"
+			],
+			[
+				"ver",
+				"version_list_file"
+			],
+			[
+				"v",
+				"versions"
+			],
+			[
+				"wo",
+				"workspace"
+			],
+			[
+				"gi",
+				"github"
+			],
+			[
+				"check",
+				"checkBranch"
+			],
+			[
+				"GIT",
+				"GIT_BRANCH"
+			],
+			[
+				"bu",
+				"bundle"
+			],
+			[
+				"puppet",
+				"puppet_bundle"
+			],
+			[
+				"NETWORK",
+				"NETWORKIO_SENT"
+			],
+			[
+				"play",
+				"playername"
+			],
+			[
+				"axi",
+				"axisY"
+			],
+			[
+				"axisR",
+				"axisRY"
+			],
+			[
+				"a",
+				"axisY"
+			],
+			[
+				"X",
+				"X_MAX_ANGLE"
+			],
+			[
+				"dri",
+				"driverAction"
+			],
+			[
+				"la",
+				"lastModified"
+			],
+			[
+				"get",
+				"getName"
+			],
+			[
+				"eve",
+				"EventConveter"
+			],
+			[
+				"pr",
+				"private"
+			],
+			[
+				"controll",
+				"controllers"
+			],
+			[
+				"Y",
+				"Y_angle"
+			],
+			[
+				"Ax",
+				"AxisEvent"
+			],
+			[
+				"comp",
+				"compId"
+			],
+			[
+				"base",
+				"base_dir"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "logging.yaml",
+			"settings":
+			{
+				"buffer_size": 1022,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site.py",
+			"settings":
+			{
+				"buffer_size": 1595,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/smallcase_api/smallcase.py",
+			"settings":
+			{
+				"buffer_size": 4813,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "myconfigfile.conf",
+			"settings":
+			{
+				"buffer_size": 532,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ptservice.py",
+			"settings":
+			{
+				"buffer_size": 3081,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"git",
+				"Gitignore: New gitingore"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"ja",
+				"Java decompile"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/ptservice/ptservice.py",
+		"/C/ptservice/myconfigfile.conf",
+		"/C/python27/Lib/site-packages/cherrypy/_cpconfig.py",
+		"/C/python27/Lib/site-packages/cherrypy/__init__.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/git.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/upgrade.py",
+		"/C/cygwin/temp/ctrlworks/release.info",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/remove_all_tag.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/tag.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/deploy.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/settings.py",
+		"/C/ctrlworks_workspaces/doc/git",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/battery.py",
+		"/C/Python27/Lib/site-packages/winsys/_kernel32.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/puppet/upgrade.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/puppet_bundle.sh",
+		"/C/ctrlworks_test/ctrlworks/software/jinput/build.xml",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/version.list.v1",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/build.py",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/XBOXControllerHandler.java",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventHandler.java",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/UIControl.java",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/DriverControl.java",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java",
+		"/C/ctrlworks_test/ctrlworks/software/joystick/joysticklib/src/com/pfarrell/joystick/EventHandler.java",
+		"/C/ctrlworks_test/ctrlworks/software/joystick/joysticklib/src/com/pfarrell/joystick/JInputReader.java",
+		"/C/ctrlworks/logs/controller.log",
+		"/C/ctrlworks/logs/controller.log.last",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/version_v1.list",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/info.py",
+		"/C/test.py",
+		"/C/ctrlworks/log4j.properties",
+		"/C/ctrlworks_test/ctrlworks/src/ui/skype/remote_ui.py",
+		"/C/ctrlworks_test/ctrlworks/src/ui/skype/console.py",
+		"/C/ctrlworks/puppet.ini",
+		"/C/ctrlworks_test/ctrlworks/src/ui/skype/log_util.py",
+		"/C/ctrlworks_test/ctrlworks/src/ui/skype/remote_orchestrator.py",
+		"/C/ctrlworks_workspaces/mongodb/README",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/ctrlworks/log4j.properties",
+		"/C/usb.py",
+		"/C/ctrlworks/license.txt",
+		"/C/ProgramData/Ctrlworks/Puppet Remote/remote_ui.log",
+		"/C/ctrlworks_test/ctrlworks/src/ui/skype/logging.ini",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/ctrlworks/ui/skype_bridge.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/zent/git.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/master/publish.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/zen/settings.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/zen/deploy.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/zen/git.py",
+		"/C/ctrlworks_test/ctrlworks/src/ui/skype/pyinstaller-2.0/PyInstaller/utils/git.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/git.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/settings.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploytools/deploy.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploy.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/publish.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/settings.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/config.py",
+		"/C/ctrlworks_test/ctrlworks/src/ui/skype/Skype4Py/api/windows.py",
+		"/C/ctrlworks_test/ctrlworks/src/ui/skype/puppet.ini",
+		"/C/ctrlworks_test/ctrlworks/src/ui/skype/Skype4Py/skype.py",
+		"/C/test/ctrlworks/src/ui/skype/remote_ui.ini",
+		"/C/test/ctrlworks/src/ui/skype/remote_ui.py",
+		"/C/ctrlworks_test/ctrlworks/src/ui/skype/Skype4Py/__init__.py",
+		"/C/Program Files (x86)/CTRLWorks/Puppet Remote/remote_ui.ini",
+		"/C/Program Files (x86)/CTRLWorks/Puppet Remote/logging.ini",
+		"/C/ctrlworks/logs/skype.log",
+		"/C/cygwin/home/lunar/pp_driver_error.txt",
+		"/C/cygwin/home/lunar/pp_driver.txt",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/src/test/resources/META-INF/persistence.xml",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/src/test/resources/webapp/WEB-INF/dispatcher-servlet.xml",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/assembly/bin-with-dependencies.xml",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/src/main/resources/META-INF/persistence.xml",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/src/main/resources/webapp/WEB-INF/dispatcher-servlet.xml",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/src/main/resources/bin/web_console.sh",
+		"/C/battery.py",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/test_bundle.sh",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/deploy.pu",
+		"/C/cygwin/bin/ssh-host-config",
+		"/C/Distribution/ctrlworks/.gitignore",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/temp/data/ctrlworks.script",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/classes/data/ctrlworks.script",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/test-classes/META-INF/persistence.xml",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/classes/META-INF/persistence.xml",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/classes/webapp/WEB-INF/dispatcher-servlet.xml",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/data/ctrlworks.script",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/surefire-reports/com.ctrlworks.web.console.controller.TestRequestController.txt",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/surefire-reports/com.ctrlworks.web.console.controller.TestRequestController-output.txt",
+		"/C/Users/lunar/AppData/Local/Temp/Rar$DIa0.413/ctrlworks.log",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/temp/bin/web_console.sh",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/src/main/resources/data/ctrlworks.log",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/temp/data/ctrlworks.lck",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/temp/data/ctrlworks.properties",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/temp/data/ctrlworks.log",
+		"/C/Users/lunar/AppData/Local/Temp/Rar$DIa0.683/ctrlworks.script",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/src/main/resources/data/ctrlworks.script",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/log",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/pom.xml",
+		"/C/ctrlworks_test/ctrlworks/src/web/console/target/test-classes/webapp/WEB-INF/dispatcher-servlet.xml",
+		"/C/ctrlworks_test/ctrlworks/src/log",
+		"/C/ctrlworks/software/jinput/coreAPI/src/java/net/java/games/input/DefaultControllerEnvironment.java",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/ctrlworks/logs/controller.log",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/test/java/com/ctrlworks/puppet/handler/TestAvroPuppetCommandHandler.java",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/handler/AvroPuppetCommandHandler.java",
+		"/C/ctrlworks_test/ctrlworks/src/libs/puppet/src/main/java/com/ctrlworks/puppet/PuppetCommandGenerator.java",
+		"/C/ctrlworks/software/jinput/coreAPI/src/java/net/java/games/input/Controller.java",
+		"/C/ctrlworks/software/jinput/coreAPI/src/java/net/java/games/input/Component.java",
+		"/C/ctrlworks_test/ctrlworks/src/scripts/ctrlworks/logs/controller.log.1",
+		"/C/ctrlworks/software/jinput/coreAPI/src/java/net/java/games/input/Event.java",
+		"/C/ctrlworks_test/ctrlworks/software/joystick/joysticklib/src/com/pfarrell/joystick/CMDDriver.java",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/MultiTouchDigitizerHandler.java",
+		"/C/ctrlworks/software/joystick/joysticklib/src/com/pfarrell/joystick/ProcessEvents.java",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/Puppet.java",
+		"/C/tmp/minecontrol/src/com/joshjcarrier/minecontrol/data/implementation/JInputController.java",
+		"/C/tmp/minecontrol/src/com/joshjcarrier/minecontrol/services/implementation/MinecontrolRobotService.java",
+		"/C/tmp/minecontrol/src/com/joshjcarrier/minecontrol/services/implementation/ControllerToRobotService.java",
+		"/C/tmp/minecontrol/src/com/joshjcarrier/minecontrol/data/ControllerState.java",
+		"/C/ctrlworks/software/jinput/coreAPI/src/java/net/java/games/input/example/ReadAllEvents.java",
+		"/C/tmp/minecontrol/src/com/joshjcarrier/minecontrol/ui/views/ConfigurationView.java",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/target/generated-sources/avro/com/ctrlworks/libs/ipc/PanRequest.java",
+		"/C/tmp/minecontrol/src/com/joshjcarrier/minecontrol/services/async/implementation/AsyncHelper.java",
+		"/C/text.py",
+		"/C/zen/discount/discount.sublime-workspace",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/resources/log4j.properties",
+		"/C/ctrlworks/software/jinput/coreAPI/src/java/net/java/games/input/EventQueue.java",
+		"/C/tmp/minecontrol/src/com/joshjcarrier/minecontrol/services/implementation/JInputControllerService.java",
+		"/C/ctrlworks_test/ctrlworks/software/joystick/joysticklib/src/com/pfarrell/joystick/ProcessEvents.java",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/AbstractEventHandler.java",
+		"/C/ctrlworks_test/ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventConverter.java"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.java",
+			"*.py",
+			"*.xml",
+			"*.java",
+			"*.java,C:\\ctrlworks\\software\\jinput,<open folders>",
+			"*.java,C:\\ctrlworks\\software\\jinput",
+			".,<open files>",
+			"C:\\ctrlworks_test\\ctrlworks\\",
+			"C:\\ctrlworks\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"config",
+			"GetSystemPowerStatus",
+			"git pull origin",
+			"git pull",
+			"script",
+			"scripts",
+			"release",
+			"build",
+			"cp",
+			"Version",
+			"_reload_info",
+			"_update",
+			"last_version",
+			"requestID",
+			".updateStatus(",
+			"pantilt stop",
+			"connectState",
+			"movementTimer",
+			"pantiltTimer",
+			"timerTask",
+			"logg",
+			".do_pan_tilt(",
+			"drive(self",
+			"update_gui_status_slot",
+			".update_gui_status_slot(",
+			"self.drive",
+			"self.drive =",
+			"self.drive",
+			"drive(",
+			"###### GUI",
+			"######",
+			".drive(",
+			"console",
+			"developer_log_config",
+			"gui",
+			"GUI",
+			"GUI S",
+			"main()",
+			"logger",
+			"checkout",
+			"_isBranchExists",
+			"ENV",
+			"isBranchExists",
+			".KEY_ROTATION_DURATION",
+			"MoveButton",
+			"KEY_DURATION",
+			"KEY_ROTATION_DURATION",
+			"/ 10",
+			"9 / 10",
+			"9/10",
+			"_CacheDict",
+			"ResetCache",
+			".attach(",
+			".window_proc",
+			"skype_id",
+			"cp",
+			"WORKDIR",
+			"test",
+			"i/am",
+			"persistence",
+			"bin-with-depen",
+			"assembly",
+			"loading",
+			"angleX",
+			"angleY",
+			"fail",
+			"[com.ctrlworks.puppet.handler.joystick.XBOXControllerHandler]",
+			"fail",
+			" [com.ctrlworks.puppet.handler.joystick.XBOXControllerHandler]",
+			"fail",
+			"[com.ctrlworks.puppet.handler.joystick.XBOXControllerHandler]",
+			"25/Oct/2012 09:56:47,038",
+			"@Test",
+			"PuppetCommandMsg",
+			"rescan",
+			".getState(",
+			"State(",
+			"getState",
+			"pov",
+			"Axis",
+			"identif",
+			"axis",
+			"fireControllerAdded",
+			"controllerAdded",
+			"DirectInputEnvironmentPlugin",
+			"92081674b3fc4cbb2d2d6a0967e898c80d375580",
+			"XBOXControllerHandler",
+			"process Axis event",
+			"MAX_INTERVAL",
+			"callForward",
+			"TIMEOUT",
+			"lastMotorSpeeds",
+			"mdLog",
+			"DriverControl",
+			"X_angle",
+			" X_angle",
+			"X_angle",
+			"eventConverter",
+			"eventConveter",
+			"process",
+			"new ProcessEvents",
+			"cp",
+			"ROOTDIR/*/puppet",
+			"ROOTDIR/*puppet",
+			"ROOTDIR/puppet",
+			"/puppet",
+			"puppet",
+			"scripts",
+			"scripts/puppet",
+			"/scripts/puppet",
+			".getDefau",
+			"Not ",
+			"Not li",
+			".dll",
+			"dll",
+			"copy",
+			"new DefaultControllerEnvironment",
+			"extends ControllerEnvironment",
+			"new ControllerEnvironment",
+			"defaultEnvironment",
+			"new DefaultControllerEnvironment",
+			"Default",
+			"Defaule",
+			"Failed to poll device",
+			"Rotation",
+			"rotation",
+			"axis",
+			"Long poll response is empty"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"// @Test",
+			"com.ctrlworks.puppet.handler.joystick.",
+			"",
+			"dev-sw@ctrlworks.com",
+			"",
+			" LONGVARCHAR ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "logging.yaml",
+					"settings":
+					{
+						"buffer_size": 1022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								533,
+								533
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "site.py",
+					"settings":
+					{
+						"buffer_size": 1595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 390.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/smallcase_api/smallcase.py",
+					"settings":
+					{
+						"buffer_size": 4813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "myconfigfile.conf",
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								398,
+								398
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ptservice.py",
+					"settings":
+					{
+						"buffer_size": 3081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1824,
+								1824
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 645.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pts",
+				"ptservice.py"
+			],
+			[
+				"lo",
+				"logging.yaml"
+			],
+			[
+				"confi",
+				"myconfigfile.conf"
+			],
+			[
+				"batt",
+				"ctrlworks/src/scripts/deploytools/master/battery.py"
+			],
+			[
+				"setting",
+				"ctrlworks/src/scripts/deploytools/master/settings.py"
+			],
+			[
+				"git",
+				"doc/git"
+			],
+			[
+				"depl",
+				"ctrlworks/src/scripts/deploytools/master/deploy.py"
+			],
+			[
+				"gi",
+				"doc/git"
+			],
+			[
+				"upgrade",
+				"ctrlworks/src/scripts/deploytools/master/upgrade.py"
+			],
+			[
+				"upgra",
+				"ctrlworks/src/scripts/puppet/upgrade.py"
+			],
+			[
+				"tag",
+				"ctrlworks/src/scripts/deploytools/master/tag.py"
+			],
+			[
+				"",
+				"ctrlworks/src/scripts/deploytools/master/deploy.py"
+			],
+			[
+				"settings",
+				"ctrlworks/src/scripts/deploytools/master/settings.py"
+			],
+			[
+				"deploy",
+				"ctrlworks/src/scripts/deploytools/master/deploy.py"
+			],
+			[
+				"puppbun",
+				"ctrlworks/src/scripts/puppet_bundle.sh"
+			],
+			[
+				"puppetbun",
+				"ctrlworks/src/scripts/puppet_bundle.sh"
+			],
+			[
+				"deploy.py",
+				"ctrlworks/src/scripts/deploytools/master/deploy.py"
+			],
+			[
+				"gitpy",
+				"ctrlworks/src/scripts/deploytools/master/git.py"
+			],
+			[
+				"setting.py",
+				"ctrlworks/src/scripts/deploytools/master/settings.py"
+			],
+			[
+				"verlist.v1",
+				"ctrlworks/src/scripts/deploytools/master/version.list.v1"
+			],
+			[
+				"buildpy",
+				"ctrlworks/src/scripts/deploytools/master/build.py"
+			],
+			[
+				"build",
+				"ctrlworks/software/jinput/build.xml"
+			],
+			[
+				"git.py",
+				"ctrlworks/src/scripts/deploytools/master/git.py"
+			],
+			[
+				"xbox",
+				"ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/XBOXControllerHandler.java"
+			],
+			[
+				"uic",
+				"ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/UIControl.java"
+			],
+			[
+				"eventhandler.java",
+				"ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventHandler.java"
+			],
+			[
+				"eventhand",
+				"ctrlworks/software/joystick/joysticklib/src/com/pfarrell/joystick/EventHandler.java"
+			],
+			[
+				"jreader",
+				"ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java"
+			],
+			[
+				"jinreader",
+				"ctrlworks/software/joystick/joysticklib/src/com/pfarrell/joystick/JInputReader.java"
+			],
+			[
+				"drivercontr",
+				"ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/DriverControl.java"
+			],
+			[
+				"uicon",
+				"ctrlworks/src/pp/puppet/src/main/java/com/ctrlworks/puppet/UIControl.java"
+			],
+			[
+				"log4",
+				"ctrlworks/src/scripts/ctrlworks/log4j.properties"
+			],
+			[
+				"console.py",
+				"ctrlworks/src/ui/skype/console.py"
+			],
+			[
+				"remote_orchestrator",
+				"ctrlworks/src/ui/skype/remote_orchestrator.py"
+			],
+			[
+				"log_u",
+				"ctrlworks/src/ui/skype/log_util.py"
+			],
+			[
+				"log",
+				"ctrlworks/src/ui/skype/log_util.py"
+			],
+			[
+				"logging.ini",
+				"ctrlworks/src/ui/skype/logging.ini"
+			],
+			[
+				"log_ut",
+				"ctrlworks/src/ui/skype/log_util.py"
+			],
+			[
+				"remoteuipy",
+				"ctrlworks/src/ui/skype/remote_ui.py"
+			],
+			[
+				"publish.py",
+				"ctrlworks/src/scripts/deploytools/master/publish.py"
+			],
+			[
+				"git.p",
+				"ctrlworks/src/scripts/deploytools/git.py"
+			],
+			[
+				"depl.p",
+				"ctrlworks/src/scripts/deploytools/zen/deploy.py"
+			],
+			[
+				"set",
+				"ctrlworks/src/scripts/deploytools/settings.py"
+			],
+			[
+				"deplo",
+				"ctrlworks/src/scripts/deploytools/deploy.py"
+			],
+			[
+				"deploy.",
+				"ctrlworks/src/scripts/deploy.py"
+			],
+			[
+				"windows.py",
+				"src/ui/skype/Skype4Py/api/windows.py"
+			],
+			[
+				"puppet.ini",
+				"src/ui/skype/puppet.ini"
+			],
+			[
+				"web_console",
+				"src/web/console/src/main/resources/bin/web_console.sh"
+			],
+			[
+				"webconsomainresourcedispatserv",
+				"src/web/console/src/main/resources/webapp/WEB-INF/dispatcher-servlet.xml"
+			],
+			[
+				"mainresourcepersis",
+				"src/web/console/src/main/resources/META-INF/persistence.xml"
+			],
+			[
+				"bin-withde",
+				"src/web/console/assembly/bin-with-dependencies.xml"
+			],
+			[
+				"testrequestcontroller.txt",
+				"src/web/console/target/surefire-reports/com.ctrlworks.web.console.controller.TestRequestController-output.txt"
+			],
+			[
+				"maindispatchservlet",
+				"src/web/console/src/main/resources/webapp/WEB-INF/dispatcher-servlet.xml"
+			],
+			[
+				"mainresourcepersistence",
+				"src/web/console/src/main/resources/META-INF/persistence.xml"
+			],
+			[
+				"testresourceservlet",
+				"src/web/console/src/test/resources/webapp/WEB-INF/dispatcher-servlet.xml"
+			],
+			[
+				"dispatcher-servlet.xml",
+				"src/web/console/src/main/resources/webapp/WEB-INF/dispatcher-servlet.xml"
+			],
+			[
+				"puppgenera",
+				"libs/puppet/src/main/java/com/ctrlworks/puppet/PuppetCommandGenerator.java"
+			],
+			[
+				"testavrocom",
+				"src/test/java/com/ctrlworks/puppet/handler/TestAvroPuppetCommandHandler.java"
+			],
+			[
+				"puppet.java",
+				"src/main/java/com/ctrlworks/puppet/Puppet.java"
+			],
+			[
+				"defaultcon",
+				"jinput/coreAPI/src/java/net/java/games/input/DefaultControllerEnvironment.java"
+			],
+			[
+				"jinpureader",
+				"src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java"
+			],
+			[
+				"inreader",
+				"src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java"
+			],
+			[
+				"component",
+				"jinput/coreAPI/src/java/net/java/games/input/Component.java"
+			],
+			[
+				"controller.java",
+				"jinput/coreAPI/src/java/net/java/games/input/Controller.java"
+			],
+			[
+				"inpreader",
+				"src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java"
+			],
+			[
+				"puppetcommandgenerator",
+				"libs/puppet/src/main/java/com/ctrlworks/puppet/PuppetCommandGenerator.java"
+			],
+			[
+				"avropuppetcommandhandler",
+				"src/main/java/com/ctrlworks/puppet/handler/AvroPuppetCommandHandler.java"
+			],
+			[
+				"testavropuppetcommandhandler.java",
+				"src/test/java/com/ctrlworks/puppet/handler/TestAvroPuppetCommandHandler.java"
+			],
+			[
+				"puppetcommandgenerator.java",
+				"main/java/com/ctrlworks/puppet/PuppetCommandGenerator.java"
+			],
+			[
+				"testaver",
+				"puppet/src/test/java/com/ctrlworks/puppet/handler/TestAvroPuppetCommandHandler.java"
+			],
+			[
+				"xb",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/XBOXControllerHandler.java"
+			],
+			[
+				"jinputreader",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java"
+			],
+			[
+				"xo",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/XBOXControllerHandler.java"
+			],
+			[
+				"asynchelper",
+				"minecontrol/services/async/implementation/AsyncHelper.java"
+			],
+			[
+				"robot",
+				"minecontrol/services/implementation/MinecontrolRobotService.java"
+			],
+			[
+				"jin",
+				"minecontrol/data/implementation/JInputController.java"
+			],
+			[
+				"inpureader",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java"
+			],
+			[
+				"mul",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/MultiTouchDigitizerHandler.java"
+			],
+			[
+				"eventhandl",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventHandler.java"
+			],
+			[
+				"jinred",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java"
+			],
+			[
+				"jinputrea",
+				"minecontrol/data/implementation/JInputController.java"
+			],
+			[
+				"x",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/XBOXControllerHandler.java"
+			],
+			[
+				"ui",
+				"puppet/src/main/java/com/ctrlworks/puppet/UIControl.java"
+			],
+			[
+				"pan",
+				"puppet/target/generated-sources/avro/com/ctrlworks/libs/ipc/PanRequest.java"
+			],
+			[
+				"uicong",
+				"minecontrol/ui/views/ConfigurationView.java"
+			],
+			[
+				"log4j",
+				"puppet/src/main/resources/log4j.properties"
+			],
+			[
+				"uicontrol",
+				"puppet/src/main/java/com/ctrlworks/puppet/UIControl.java"
+			],
+			[
+				"jinrea",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java"
+			],
+			[
+				"jinreae",
+				"jinput/coreAPI/src/java/net/java/games/input/example/ReadAllEvents.java"
+			],
+			[
+				"mu",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/MultiTouchDigitizerHandler.java"
+			],
+			[
+				"minerobo",
+				"minecontrol/services/implementation/MinecontrolRobotService.java"
+			],
+			[
+				"minerobot",
+				"minecontrol/services/implementation/MinecontrolRobotService.java"
+			],
+			[
+				"multi",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/MultiTouchDigitizerHandler.java"
+			],
+			[
+				"controllerstate",
+				"minecontrol/data/ControllerState.java"
+			],
+			[
+				"jinputcontr",
+				"minecontrol/data/implementation/JInputController.java"
+			],
+			[
+				"minerobotser",
+				"minecontrol/services/implementation/MinecontrolRobotService.java"
+			],
+			[
+				"eventhande",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventHandler.java"
+			],
+			[
+				"eventqueue",
+				"jinput/coreAPI/src/java/net/java/games/input/EventQueue.java"
+			],
+			[
+				"xbo",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/XBOXControllerHandler.java"
+			],
+			[
+				"compon",
+				"jinput/coreAPI/src/java/net/java/games/input/Component.java"
+			],
+			[
+				"eventhandler",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventHandler.java"
+			],
+			[
+				"xboxcontrollerhandler",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/XBOXControllerHandler.java"
+			],
+			[
+				"evenhan",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventHandler.java"
+			],
+			[
+				"inputreader",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java"
+			],
+			[
+				"compo",
+				"jinput/coreAPI/src/java/net/java/games/input/Component.java"
+			],
+			[
+				"conponent",
+				"jinput/coreAPI/src/java/net/java/games/input/Component.java"
+			],
+			[
+				"ev",
+				"jinput/coreAPI/src/java/net/java/games/input/Event.java"
+			],
+			[
+				"compone",
+				"jinput/coreAPI/src/java/net/java/games/input/Component.java"
+			],
+			[
+				"event",
+				"jinput/coreAPI/src/java/net/java/games/input/Event.java"
+			],
+			[
+				"event.java",
+				"jinput/coreAPI/src/java/net/java/games/input/Event.java"
+			],
+			[
+				"jinreade",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/JInputReader.java"
+			],
+			[
+				"eventconver",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventConverter.java"
+			],
+			[
+				"evconve",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventConverter.java"
+			],
+			[
+				"eventconvert",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventConverter.java"
+			],
+			[
+				"abstraevenhan",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/AbstractEventHandler.java"
+			],
+			[
+				"abstrachan",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/AbstractEventHandler.java"
+			],
+			[
+				"compa",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/collection/EventComparator.java"
+			],
+			[
+				"eventcon",
+				"puppet/src/main/java/com/ctrlworks/puppet/handler/joystick/EventConverter.java"
+			],
+			[
+				"defauconev",
+				"jinput/coreAPI/src/java/net/java/games/input/DefaultControllerEnvironment.java"
+			],
+			[
+				"hac",
+				"puppet/src/main/java/net/java/game/input/HackedControllerEnvironment.java"
+			],
+			[
+				"directinputenvironmentplugin",
+				"jinput/plugins/windows/src/java/net/java/games/input/DirectInputEnvironmentPlugin.java"
+			],
+			[
+				"directandrawinputenvironmentplugin",
+				"jinput/plugins/windows/src/java/net/java/games/input/DirectAndRawInputEnvironmentPlugin.java"
+			],
+			[
+				"defa",
+				"jinput/coreAPI/src/java/net/java/games/input/DefaultControllerEnvironment.java"
+			],
+			[
+				"defautcontro",
+				"jinput/coreAPI/src/java/net/java/games/input/DefaultControllerEnvironment.java"
+			],
+			[
+				"controllerenve",
+				"jinput/coreAPI/src/java/net/java/games/input/ControllerEnvironment.java"
+			],
+			[
+				"controlleren",
+				"jinput/coreAPI/src/java/net/java/games/input/ControllerEnvironment.java"
+			],
+			[
+				"controllerlis",
+				"jinput/coreAPI/src/java/net/java/games/input/ControllerListener.java"
+			],
+			[
+				"directin",
+				"jinput/plugins/windows/src/java/net/java/games/input/DirectInputEnvironmentPlugin.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/ctrlworks_test/ctrlworks_test.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 127.0,
+	"status_bar_visible": true
+}

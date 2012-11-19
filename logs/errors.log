@@ -1,0 +1,755 @@
+2012-11-13 13:30:58,121 - cherrypy.error.45667376 - ERROR - [13/Nov/2012:13:30:58] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 39, in register
+    return to_response(member)
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 13:34:33,687 - cherrypy.error.43766832 - ERROR - [13/Nov/2012:13:34:33] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 39, in register
+    return to_response(member)
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 13:35:11,005 - cherrypy.error.45601840 - ERROR - [13/Nov/2012:13:35:11] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 39, in register
+    return to_response(result)
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: 'ObjectId' object is not iterable
+
+2012-11-13 13:36:17,786 - cherrypy.error.46126128 - ERROR - [13/Nov/2012:13:36:17] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 39, in register
+    return to_response(self.table.find(result))
+  File "C:\Python27\lib\site-packages\pymongo\collection.py", line 618, in find
+    return Cursor(self, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 61, in __init__
+    raise TypeError("spec must be an instance of dict")
+TypeError: spec must be an instance of dict
+
+2012-11-13 13:38:56,648 - cherrypy.error.45470768 - ERROR - [13/Nov/2012:13:38:56] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 38, in register
+    'msg': 'MemberManager.register fail, email duplicate',
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 13:39:24,859 - cherrypy.error.45143088 - ERROR - [13/Nov/2012:13:39:24] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 38, in register
+    'msg': 'MemberManager.register fail, email duplicate'
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 22:52:51,898 - cherrypy.error.44172432 - ERROR - [13/Nov/2012:22:52:51] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 38, in register
+    'msg': 'MemberManager.register fail, email duplicate'
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 22:53:41,227 - cherrypy.error.44172432 - ERROR - [13/Nov/2012:22:53:41] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 38, in register
+    'msg': 'MemberManager.register fail, email duplicate'
+  File "C:\ptservice\ptservice.py", line 13, in to_response
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\ptservice.py", line 13, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+TypeError: string indices must be integers, not str
+
+2012-11-13 23:00:43,657 - cherrypy.error.45876368 - ERROR - [13/Nov/2012:23:00:43] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 47, in register
+    return to_response(200, _result_to_dict(result))
+  File "C:\ptservice\ptservice.py", line 14, in to_response
+    result.update(ext)
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+
+2012-11-13 23:55:53,707 - cherrypy.error.44631184 - ERROR - [13/Nov/2012:23:55:53] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in filter
+    return to_response(200, _result_to_dict(self.table.find())).sort({name: 1})
+AttributeError: 'str' object has no attribute 'sort'
+
+2012-11-13 23:56:37,640 - cherrypy.error.43648144 - ERROR - [13/Nov/2012:23:56:37] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in filter
+    return to_response(200, _result_to_dict(self.table.find()).sort({name: 1}))
+AttributeError: 'dict' object has no attribute 'sort'
+
+2012-11-13 23:56:57,285 - cherrypy.error.44696720 - ERROR - [13/Nov/2012:23:56:57] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in filter
+    return to_response(200, _result_to_dict(self.table.find().sort({name: 1})))
+NameError: global name 'name' is not defined
+
+2012-11-13 23:57:16,201 - cherrypy.error.46859408 - ERROR - [13/Nov/2012:23:57:16] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in filter
+    return to_response(200, _result_to_dict(self.table.find().sort({"name": 1})))
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 463, in sort
+    keys = helpers._index_list(key_or_list, direction)
+  File "C:\Python27\lib\site-packages\pymongo\helpers.py", line 46, in _index_list
+    raise TypeError("if no direction is specified, "
+TypeError: if no direction is specified, key_or_list must be an instance of list
+
+2012-11-14 00:05:54,723 - cherrypy.error.44827792 - ERROR - [14/Nov/2012:00:05:54] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 65, in filter
+    {"user_name": re.compile("*.keyword.*" % keyword, re.IGNORECASE)},
+TypeError: not all arguments converted during string formatting
+
+2012-11-14 00:06:31,035 - cherrypy.error.45024400 - ERROR - [14/Nov/2012:00:06:31] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 65, in filter
+    {"user_name": re.compile("*.%s.*" % keyword, re.IGNORECASE)},
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:07:11,377 - cherrypy.error.43910288 - ERROR - [14/Nov/2012:00:07:11] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 65, in filter
+    {"user_name": re.compile("*.%s.*" % keyword, re.IGNORECASE)},
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:07:34,602 - cherrypy.error.45089936 - ERROR - [14/Nov/2012:00:07:34] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 65, in filter
+    {"user_name": re.compile("*.%s.*" % keyword, re.IGNORECASE)},
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:08:57,657 - cherrypy.error.44303504 - ERROR - [14/Nov/2012:00:08:57] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 63, in filter
+    {"user_name": re.compile("*.%s.*" % keyword, re.IGNORECASE)},
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:09:38,684 - cherrypy.error.44827792 - ERROR - [14/Nov/2012:00:09:38] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 63, in filter
+    {"user_name": re.compile("*." + keyword + ".*", re.IGNORECASE)},
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:11:43,733 - cherrypy.error.44303504 - ERROR - [14/Nov/2012:00:11:43] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 62, in filter
+    regx = re.compile("*.%s.*" % keyword, re.IGNORECASE)
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:12:15,618 - cherrypy.error.45089936 - ERROR - [14/Nov/2012:00:12:15] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 62, in filter
+    regx = re.compile("*.xx.*", re.IGNORECASE)
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-14 00:14:17,010 - cherrypy.error.46597264 - ERROR - [14/Nov/2012:00:14:17] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 62, in filter
+    regx = re.compile("*%s*" % keyword, re.IGNORECASE)
+  File "C:\Python27\lib\re.py", line 190, in compile
+    return _compile(pattern, flags)
+  File "C:\Python27\lib\re.py", line 242, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+
+2012-11-18 03:55:27,714 - cherrypy.error.45589744 - ERROR - [18/Nov/2012:03:55:27] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 57, in disable
+    return to_response(200, _result_to_dict(self.table.find(users)))
+  File "C:\Python27\lib\site-packages\pymongo\collection.py", line 618, in find
+    return Cursor(self, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 61, in __init__
+    raise TypeError("spec must be an instance of dict")
+TypeError: spec must be an instance of dict
+
+2012-11-18 03:56:02,584 - cherrypy.error.46245104 - ERROR - [18/Nov/2012:03:56:02] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 57, in disable
+    return to_response(200, _result_to_dict(users))
+NameError: global name 'users' is not defined
+
+2012-11-18 03:56:04,733 - cherrypy.error.46245104 - ERROR - [18/Nov/2012:03:56:04] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 57, in disable
+    return to_response(200, _result_to_dict(users))
+NameError: global name 'users' is not defined
+
+2012-11-18 03:58:12,720 - cherrypy.error.46179568 - ERROR - [18/Nov/2012:03:58:12] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 56, in disable
+    users = self.table.find({"_id": ObjectId(id)})
+NameError: global name 'ObjectId' is not defined
+
+2012-11-18 04:22:43,532 - cherrypy.error.45458672 - ERROR - [18/Nov/2012:04:22:43] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in disable
+    return to_response(200, users)
+NameError: global name 'users' is not defined
+
+2012-11-18 04:23:19,312 - cherrypy.error.45196528 - ERROR - [18/Nov/2012:04:23:19] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 59, in disable
+    user.active = False
+AttributeError: 'dict' object has no attribute 'active'
+
+2012-11-18 05:04:07,530 - cherrypy.error.45196528 - ERROR - [18/Nov/2012:05:04:07] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 60, in disable
+    self.table.update(user)
+TypeError: update() takes at least 3 arguments (2 given)
+
+2012-11-18 05:18:31,217 - cherrypy.error.45786352 - ERROR - [18/Nov/2012:05:18:31] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 66, in disable
+    return to_response(200, user)
+NameError: global name 'user' is not defined
+
+2012-11-18 05:19:42,888 - cherrypy.error.45786352 - ERROR - [18/Nov/2012:05:19:42] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 66, in disable
+    return to_response(200, {})
+NameError: global name 'user' is not defined
+
+2012-11-18 05:20:28,842 - cherrypy.error.45982960 - ERROR - [18/Nov/2012:05:20:28] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 66, in disable
+    return to_response(200, user)
+  File "C:\ptservice\ptservice.py", line 17, in to_response
+    result.update(ext)
+TypeError: 'NoneType' object is not iterable
+
+2012-11-18 19:26:29,812 - cherrypy.error.48997616 - ERROR - [18/Nov/2012:19:26:29] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 82, in fetch_member
+    return to_response(200, Member(id).member)
+  File "C:\ptservice\ptservice.py", line 93, in __init__
+    self.member = self.table.find_one({'_id': ObjectId(id)})
+  File "C:\Python27\lib\site-packages\bson\objectid.py", line 84, in __init__
+    self.__validate(oid)
+  File "C:\Python27\lib\site-packages\bson\objectid.py", line 173, in __validate
+    raise InvalidId("%s is not a valid ObjectId" % oid)
+InvalidId: 50a865cbdd1f33037ca0084 is not a valid ObjectId
+
+2012-11-18 19:27:46,082 - cherrypy.error.46769392 - ERROR - [18/Nov/2012:19:27:46] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 82, in fetch_member
+    return to_response(200, Member(id).member)
+  File "C:\ptservice\ptservice.py", line 95, in __init__
+    except InvalidId:
+NameError: global name 'InvalidId' is not defined
+
+2012-11-18 19:28:51,474 - cherrypy.error.47359216 - ERROR - [18/Nov/2012:19:28:51] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 83, in fetch_member
+    return to_response(200, Member(id).member)
+AttributeError: 'Member' object has no attribute 'member'
+
+2012-11-18 19:30:10,795 - cherrypy.error.45589744 - ERROR - [18/Nov/2012:19:30:10] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 83, in fetch_member
+    return to_response(200, Member(id).member)
+  File "C:\ptservice\ptservice.py", line 98, in __init__
+    raise e
+InvalidId: 50a865cbdd1f33037ca0084 is not a valid ObjectId
+
+2012-11-18 20:07:25,688 - cherrypy.error.44737776 - ERROR - [18/Nov/2012:20:07:25] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 99, in topup
+    result = member.topup(point, free, paidtype)
+AttributeError: 'NoneType' object has no attribute 'topup'
+
+2012-11-18 20:08:36,540 - cherrypy.error.44737776 - ERROR - [18/Nov/2012:20:08:36] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 99, in topup
+    result = member.topup(point, free, paidtype)
+AttributeError: 'NoneType' object has no attribute 'topup'
+
+2012-11-18 20:08:42,776 - cherrypy.error.45982960 - ERROR - [18/Nov/2012:20:08:42] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 99, in topup
+    result = member.topup(point, free, paidtype)
+AttributeError: 'NoneType' object has no attribute 'topup'
+
+2012-11-18 20:09:33,236 - cherrypy.error.46572784 - ERROR - [18/Nov/2012:20:09:33] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 100, in topup
+    result = member.topup(point, free, paidtype)
+  File "C:\ptservice\ptservice.py", line 114, in topup
+    assert isinstance(n, int), "point should be int"
+NameError: global name 'n' is not defined
+
+2012-11-18 20:10:09,348 - cherrypy.error.45393136 - ERROR - [18/Nov/2012:20:10:09] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 100, in topup
+    result = member.topup(point, free, paidtype)
+  File "C:\ptservice\ptservice.py", line 114, in topup
+    assert isinstance(point, int), "point should be int"
+AssertionError: point should be int
+
+2012-11-18 20:10:52,269 - cherrypy.error.46245104 - ERROR - [18/Nov/2012:20:10:52] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 100, in topup
+    result = member.topup(int(point), int(free), paidtype)
+TypeError: int() argument must be a string or a number, not 'list'
+
+2012-11-18 20:11:38,190 - cherrypy.error.45589744 - ERROR - [18/Nov/2012:20:11:38] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in topup
+    result = member.topup(int(point), int(free), paidtype)
+TypeError: int() argument must be a string or a number, not 'list'
+
+2012-11-18 20:12:01,612 - cherrypy.error.45589744 - ERROR - [18/Nov/2012:20:12:01] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 103, in topup
+    return to_response(200, result)
+  File "C:\ptservice\ptservice.py", line 18, in to_response
+    result.update(ext)
+TypeError: 'ObjectId' object is not iterable
+
+2012-11-18 20:12:45,473 - cherrypy.error.46834928 - ERROR - [18/Nov/2012:20:12:45] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 103, in topup
+    return to_response(200, {result})
+  File "C:\ptservice\ptservice.py", line 18, in to_response
+    result.update(ext)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+
+2012-11-18 23:57:52,536 - cherrypy.error.46310640 - ERROR - [18/Nov/2012:23:57:52] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 135, in calc_point
+    records = self.table.find({'_id': ObjectId(self.id), 'active': True, type: 'income'})
+  File "C:\Python27\lib\site-packages\bson\objectid.py", line 84, in __init__
+    self.__validate(oid)
+  File "C:\Python27\lib\site-packages\bson\objectid.py", line 177, in __validate
+    text_type.__name__, type(oid)))
+TypeError: id must be an instance of (str, unicode, ObjectId), not <type 'dict'>
+
+2012-11-19 00:00:36,424 - cherrypy.error.44541168 - ERROR - [19/Nov/2012:00:00:36] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 137, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:02:25,035 - cherrypy.error.46900464 - ERROR - [19/Nov/2012:00:02:25] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 138, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:03:39,706 - cherrypy.error.45851888 - ERROR - [19/Nov/2012:00:03:39] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 137, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:04:44,569 - cherrypy.error.44541168 - ERROR - [19/Nov/2012:00:04:44] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 137, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:05:03,190 - cherrypy.error.48145648 - ERROR - [19/Nov/2012:00:05:03] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 137, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:05:20,012 - cherrypy.error.45458672 - ERROR - [19/Nov/2012:00:05:20] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 137, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:05:52,588 - cherrypy.error.45851888 - ERROR - [19/Nov/2012:00:05:52] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 138, in calc_point
+    for record in records:
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:06:40,453 - cherrypy.error.46638320 - ERROR - [19/Nov/2012:00:06:40] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+  File "C:\ptservice\ptservice.py", line 138, in calc_point
+    for record in _result_to_dict(records):
+  File "C:\ptservice\utils.py", line 10, in _result_to_dict
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\ptservice\utils.py", line 10, in <genexpr>
+    records.update(dict((record['_id'], record) for record in cursor))
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 749, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 700, in _refresh
+    self.__uuid_subtype))
+InvalidDocument: documents must have only string keys, key was <type 'type'>
+
+2012-11-19 00:19:55,427 - cherrypy.error.46179568 - ERROR - [19/Nov/2012:00:19:55] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\ptservice\ptservice.py", line 102, in total
+    result = member.calc_point()
+AttributeError: 'Member' object has no attribute 'calc_point'
+
